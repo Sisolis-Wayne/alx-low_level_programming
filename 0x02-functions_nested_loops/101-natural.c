@@ -6,10 +6,11 @@
  *
  * Return: 0 (Always Success)
 */
- 
+
 int main(void)
 {
 	int m, sum;
+
 	for (m = 0; m < 1024; m++)
 	{
 		if (m % 3 == 0 || m % 5 == 0)
