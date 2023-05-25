@@ -8,26 +8,19 @@
 
 int main(void)
 {
-	int i, j, k;
-	int counter;
+	int i, j, k, counter;
 
 	i = 1;
-	j = 1;
-	k = 0;
+	j = 2;
 
-	for (counter = 0; counter < 52; counter++)
+	for (counter = 2; counter < 50; ++counter)
 	{
-		if (counter == 51)
-		{
-			printf("%i\n", i);
-		}
-		else
-		{
-			printf("%i, ", i);
-			k = i + j;
-			j = i;
-			i = k;
-		}
+		k = i + j;
+		printf("%d, ", k);
+		i = j;
+		j = k;
 	}
+
+	printf("\n");
 	return (0);
 }
