@@ -1,8 +1,3 @@
-/*
- * File: 9-fizz_buzz.c
- * Auth: Ebenezer Sam-Oladapo
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,6 +8,7 @@
  * 3 & 5 multiples print FizzBuzz instead of the number
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int i;

@@ -1,8 +1,3 @@
-/*
- * File: 2-mul.c
- * Auth: Ebenezer Sam-Oladapo
- */
-
 #include "main.h"
 #include <stdio.h>
 

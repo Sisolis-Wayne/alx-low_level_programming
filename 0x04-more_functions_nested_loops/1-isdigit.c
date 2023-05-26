@@ -1,8 +1,3 @@
-/*
- * File: 1-isdigit.c
- * Auth: Ebenezer Sam-Oladapo
- */
-
 #include "main.h"
 #include <stdio.h>
 

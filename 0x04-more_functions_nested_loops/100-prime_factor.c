@@ -1,13 +1,10 @@
-/*
- * File: 100-prime_factor.c
- * Auth: Ebenezer Sam-Oladapo
- */
-
 #include <stdio.h>
+
 /**
  * main - Prints out the larget prime factor of 612852475143
  * Return:return 0 with success.
  */
+
 int main(void)
 {
 	long i;

@@ -1,8 +1,3 @@
-/*
- * File: 3-print_numbers.c
- * Auth: Ebenezer Sam-Oladapo
- */
-
 #include "main.h"
 #include <stdio.h>
 
