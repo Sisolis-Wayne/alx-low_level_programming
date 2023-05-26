@@ -12,21 +12,21 @@
 
 int main(void)
 {
-	unsigned long long int i;
-	unsigned long long int t1 = 1, t2 = 2;
-	unsigned long long int nextTerm = t1 + t2;
+	unsigned long int i;
+	unsigned long int t1 = 1, t2 = 2;
+	unsigned long int nextTerm = t1 + t2;
 
-	printf("%llu, %llu, ", t1, t2);
+	printf("%lu, %lu, ", t1, t2);
 
 	for (i = 3; i < 50; ++i)
 	{
-		printf("%llu, ", nextTerm);
+		printf("%lu, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
 		if (i == 49)
 		{
-			printf("%llu", nextTerm);
+			printf("%lu", nextTerm);
 		}
 	}
 
