@@ -2,6 +2,7 @@
 
 /**
  * factorial - a function that returns the factorial of a given number.
+ * @n: the number whose factorial is to be calculated
  *
  * Return: Always 0.
  */
