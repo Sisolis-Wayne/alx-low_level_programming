@@ -10,3 +10,6 @@ int is_prime_number(int n);
 int last_index(char *s);
 int is_palindrome(char *s);
 int check(char *s, int start, int end, int pair);
+int wildcmp(char *s1, char *s2);
+int checkLast(char *s, int i);
+int checker(char *s1, char *s2, int a, int b, int wildCard);
