@@ -23,6 +23,12 @@ int main(int argc, char *argv[])
 {
 	int result, index;
 
+	if (argc == 1)
+	{
+		printf("%d\n", 0);
+		return (0);
+	}
+
 	for (index = 1; index < argc; index++)
 	{
 		if ((*argv[index] < 48) || (*argv[index] > 57))
