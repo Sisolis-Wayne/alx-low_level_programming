@@ -21,7 +21,8 @@
 
 int main(int argc, char *argv[])
 {
-	int result, index;
+	int result = 0;
+	int index;
 
 	if (argc == 1)
 	{
