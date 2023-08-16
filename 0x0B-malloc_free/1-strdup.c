@@ -41,12 +41,13 @@ char *_strdup(char *str)
 	int buflen, i;
 	char *arr;
 
-	buflen = 1 + _strlen_recursion(str);
-	arr = malloc(sizeof(char) * buflen);
 	if (str == NULL)
 	{
 		return (NULL);
 	}
+
+	buflen = 1 + _strlen_recursion(str);
+	arr = malloc(sizeof(char) * buflen);
 
 	if (arr == NULL)
 	{
