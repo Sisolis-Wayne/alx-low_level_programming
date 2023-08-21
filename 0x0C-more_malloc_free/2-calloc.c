@@ -34,6 +34,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
+	while (*arr)
+	{
+		*arr = 0;
+		arr++;
+	}
+
 	return (arr);
-	free(arr);
 }
