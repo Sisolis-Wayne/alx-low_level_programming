@@ -22,12 +22,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *arr;
 	int i = 0, j = 0;
-    unsigned int m = n;
+	unsigned int m = n;
 
-    if (s1 == NULL)
-	{
+	if (s1 == NULL)
 		s1 = "";
-	}
 	if (s2 == NULL)
 		s2 = "";
 	while (s1[i] != '\0')
@@ -38,9 +36,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		j++;
 		i++;
-        m--;
-    }
-    arr = malloc(sizeof(*arr) * (i + 1));
+		m--;
+	}
+	arr = malloc(sizeof(*arr) * (i + 1));
 	if (!arr)
 	{
 		return (NULL);
