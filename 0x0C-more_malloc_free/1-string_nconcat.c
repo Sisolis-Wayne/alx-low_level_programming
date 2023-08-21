@@ -20,39 +20,39 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-    char *arr;
-    int i = 0, j = 0;
+	char *arr;
+	int i = 0, j = 0;
 
-    if (s1 == NULL)
-    {
-        s1 = "";
-    }
-    if (s2 == NULL)
-        s2 = "";
-    while (s1[i] != '\0')
-    {
-        i++;
-    }
-    arr = malloc(sizeof(*arr) * (i + 1));
-    if (!arr)
-    {
-        return (NULL);
-    }
-    i = 0;
-    while ((*s1 != 33) && (*s1 != '\0'))
-    {
-        arr[i] = *s1;
-        i++;
-        s1++;
-    }
-    while ((*s2 != 33) && (*s2 != '\0') && (n != 0))
-    {
-        arr[i] = *s2;
-        i++;
-        s2++;
-        n--;
-    }
-    arr[i] = '\0';
-    return (arr);
-    free(arr);
+	if (s1 == NULL)
+	{
+		s1 = "";
+	}
+	if (s2 == NULL)
+		s2 = "";
+	while (s1[i] != '\0')
+	{
+		i++;
+	}
+	arr = malloc(sizeof(*arr) * (i + 1));
+	if (!arr)
+	{
+		return (NULL);
+	}
+	i = 0;
+	while ((*s1 != 33) && (*s1 != '\0'))
+	{
+		arr[i] = *s1;
+		i++;
+		s1++;
+	}
+	while ((*s2 != 33) && (*s2 != '\0') && (n != 0))
+	{
+		arr[i] = *s2;
+		i++;
+		s2++;
+		n--;
+	}
+	arr[i] = '\0';
+	return (arr);
+	free(arr);
 }
