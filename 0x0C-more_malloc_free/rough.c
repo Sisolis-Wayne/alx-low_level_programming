@@ -33,11 +33,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		i++;
 	}
-	while (s2[j] != '\0')
-	{
-		j++;
-		i++;
-	}
 	arr = malloc(sizeof(*arr) * (i + 1));
 	if (!arr)
 	{
