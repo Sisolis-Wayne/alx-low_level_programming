@@ -4,13 +4,13 @@
 /**
  * print_dog -  a function that prints a struct dog
  * @d: a struct dog as defined in the header file
- * 
+ *
  * Return: the struct of the dog
  */
 
 void print_dog(struct dog *d)
 {
-	if (!d)
+	if (d == NULL)
 	{
 		return;
 	}
