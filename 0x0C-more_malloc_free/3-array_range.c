@@ -40,7 +40,6 @@ int *array_range(int min, int max)
 		arr[i] = min;
 		min++;
 	}
-    arr[max + 1] = '\0';
+
     return (arr);
-    free(arr);
 }
