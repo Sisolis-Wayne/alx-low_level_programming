@@ -35,9 +35,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	}
 
 	printf("%s\n", va_arg(ap, char *));
-	if (va_arg(ap, char *) == NULL)
-	{
-		printf("nil");
-	}
 	va_end(ap);
 }
