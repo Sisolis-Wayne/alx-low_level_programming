@@ -4,8 +4,11 @@
 
 /**
  * print_strings - a function that prints strings, followed by a new line.
- * @seperator: the string to be printed between numbers
+ *
+ * @separator: the string to be printed between numbers
  * @n: the number of strings passed to the function
+ *
+ * Return: nothing
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
