@@ -21,6 +21,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		separator = "";
 	}
+
+	if (n == 0)
+	{
+		return;
+	}
 	va_start(ap, n);
 	for (i = 0; i < (n - 1); i++)
 	{
